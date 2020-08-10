@@ -1,0 +1,136 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 10px;
+  background-color: #F2ECE4;
+}
+
+/* Layout */
+
+section {
+
+}
+
+main {
+
+max-width: 450px;
+}
+
+aside {
+  position: absolute;
+  right:450px;
+  top: 150px;
+
+}
+
+nav {
+  position: absolute;
+  right:350px;
+  top: 300px;
+
+
+
+}
+h1{
+  font-family: "montserrat";
+  text-transform: uppercase;
+  position: relative;
+  left:25%;
+}
+
+h2{
+  font-family: "montserrat";
+  text-transform: uppercase;
+
+}
+
+p{  font-family: "open sans";
+text-indent: 20px;
+
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+position: relative;
+display: block;
+color: #263440 ;
+font-size: 14px;
+font-family: "montserrat";
+Text-decoration:none;
+margin: 10px 0;
+border: 2px solid #F2C2C2;
+padding: 8px 30px;
+text-transform: uppercase;
+overflow: hidden;
+transition: 1s all ease;
+
+
+}
+.btn::before{
+  background: #F2C2C2;
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn::before{
+  width: 0;
+  height: 100%;
+}
+
+.btn:hover::before{
+width: 100%;
+
+}
+
+p{
+  color: #0D0D0D;
+}
+
+ol{ color: #A69185;
+
+
+}
+
+li{ color: #263440;}
+a{
+color: #A69185;
+
+}
+footer {
+
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #F2C2C2;
+  border-bottom: 5px solid #F2C2C2;
+  font-size: 13px;
+
+}
+
+/* WRITE YOUR CODE BELOW HERE */
